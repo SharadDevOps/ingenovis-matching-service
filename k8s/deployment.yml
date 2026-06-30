@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: matching-service
-        image: acringtrustaffdev.azurecr.io/matching-service:4229cd290cd6e2eda404be835f67663a9792b293
+        image: acringtrustaffdev.azurecr.io/matching-service:241ba09101ca9ab416020952e654d43c5dac7f8e
         ports:
         - containerPort: 8080
         env:
